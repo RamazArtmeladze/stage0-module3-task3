@@ -5,7 +5,7 @@ public class ReassigningValues {
         //write code here
         int first = 1, second = 10, third = 100;
 
-        System.out.println("Initial variables:");
+
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);
@@ -16,13 +16,12 @@ public class ReassigningValues {
         second = 6;
         third = 4;
 
-        System.out.println("\nUpdated variables:");
-        System.out.println(linkToFirst);
-        System.out.println(linkToSecond);
-        System.out.println(linkToThird);
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);
+        System.out.println(linkToFirst);
+        System.out.println(linkToSecond);
+        System.out.println(linkToThird);
 
     }
 }
